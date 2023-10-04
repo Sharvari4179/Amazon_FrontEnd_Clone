@@ -1,0 +1,57 @@
+/* similarly create the corresponding css file and copy all the product preview fonts to this file 27. */
+ProductPreview {
+    width: 50%;
+    /* make the time position relative and add font to time section 20. */
+    position: relative;
+  }
+  
+  .TimeSection{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  
+  /* add font to heart beat section same as time section 24. */
+  .HeartBeatSection{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  
+  .HeartBeatSection > i {
+    color: red;
+    animation: beat 1s infinite; 
+  }
+  
+  .HeartBeatSection > p {
+    margin-top: -10px;
+  }
+  
+  
+  /* add animation to the heart image 25. */
+  @keyframes beat {
+    0% {
+      transform: scale(1,1);
+    }
+    50% {
+      transform: scale(1.2,1.2);
+    }
+    100% {
+      transform: scale(1,1);
+    }
+  }
+  
+  .ProductPreview > img {
+    width: 100%;
+  }
+  

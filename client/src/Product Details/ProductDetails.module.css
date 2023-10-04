@@ -1,0 +1,77 @@
+.ProductData {
+    width: 50%;
+  }
+  
+  /* add font to h1 tag for title 9. */
+  
+  .ProductTitle {
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+  
+  
+  /* add font to p  tag 12. */
+  
+  .ProductDescription {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+  
+  
+  /* add font to product img  and section heading for the select color 14. */
+  .SectionHeading{
+    font-size: 25px;
+    margin-bottom: 8px;
+  }
+  
+  .ProductImage {
+    width: 100%;
+    max-width: 80px;
+  
+    border: 2px solid transparent;
+    border-radius: 8px;
+    margin-right: 12px;
+    cursor: pointer;
+  }
+  
+  /* add font for the selected image */
+  .SelectedProductImage{
+    border: 2px solid teal;
+  }
+  
+  
+  /* add font to feature items 17. */
+  .FeatureItem{
+    min-width: 80px;
+    background-color: gainsboro;
+    border-radius: 8px;
+    border: 0;
+    text-align: center;
+    margin-right: 12px;
+    cursor: pointer;
+    box-sizing: content-box;
+  
+    padding: 12px 24px;
+    font-weight: 600;
+  }
+  
+  /* do the same for selected frature item as selected product item 18. */
+  
+  .SelectedFeatureItem {
+    color: white;
+    background-color: gray;
+  }
+   .PrimaryButton{
+    color: white;
+    background-color: teal;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 0;
+    padding: 12px 24px;
+     margin-top: 36px;
+     cursor: pointer;
+   }
